@@ -5,11 +5,11 @@ Install [Visual Studio Code](https://code.visualstudio.com/) if it isn't already
 # Remotely Connecting
 For the first step, open a terminal. Your command will look like down below:
 
-        $ ssh cs15lfa22zz@ieng6.ucsd.edu 
+        $ ssh cs15lfa22ta1@ieng6.ucsd.edu
 
 The last two letters will be different with your own course-specific account.
 
-        $ cs15lfa22zz@ieng6.ucsd.edu) Password:
+        $ cs15lfa22ta1@ieng6.ucsd.edu) Password:
 Now type your password to log in the remote computer.
 
 If your terminal is connected to a remote computer seccussfully. It will look similar like the image below:
@@ -35,7 +35,7 @@ On the server:
 
 There is a command called ``scp``, we will always run it from the client to the server. Basically ,this command helps us copy files back and forth between the computers.
 
-        $ scp filename.java cs15lfa22zz@ieng6.ucsd.edu:~/
+        $ scp filename.java cs15lfa22ta1@ieng6.ucsd.edu:~/
 
 First of all, you should create a file you want to copy to the server. Or you can use the **WhereAmI.java** example:
 
@@ -55,7 +55,7 @@ Now compile the WhereAmI.java using the ``javac`` and ``java`` commands to ensur
 
 Finally, we now run the ``scp`` command with the correct password:
 
-        scp filename.java cs15lfa22zz@ieng6.ucsd.edu:~/
+        scp filename.java cs15lfa22ta1@ieng6.ucsd.edu:~/
 
 ![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/SSH-Keygen.png)
 
