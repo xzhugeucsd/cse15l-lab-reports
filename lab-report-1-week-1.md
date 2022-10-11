@@ -76,7 +76,6 @@ Secondly, make directory to the server
         $ $ mkdir .ssh
         <logout>
 Finally, you can access **ssh/scp** without entering your password.
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/Setting%20an%20SSH%20Key.png)
 ![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/ssh%20with%20ssh%20key.png)
 # Optimizing Remote Running
 Writing commands in quotes at the end of an `ssh` will directly run it on the server.
