@@ -57,7 +57,7 @@ Finally, we now run the ``scp`` command with the correct password:
 
         scp filename.java cs15lfa22ta1@ieng6.ucsd.edu:~/
 
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/SSH-Keygen.png)
+![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/scp%20file.png)
 
 Hint: You can also run the javac/java command on the ieng6 computer.
 # Setting an SSH Key
