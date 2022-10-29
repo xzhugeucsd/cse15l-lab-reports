@@ -48,7 +48,7 @@ class SearchEngine {
     }
 }
 ```
-![Image](/lab3/Add1.png)
+![Image](lab3/Add1.png)
 
 Method called: handleRequest
 
@@ -58,7 +58,7 @@ Values of relevant fields of the class: ArrayList is added [pineapple]
 
 When handleRequest is called, pineapple is added to the arraylist.
 
-![Image](/lab3/Add2.png)
+![Image](lab3/Add2.png)
 
 Method called: handleRequest
 
@@ -68,7 +68,7 @@ Values of relevant fields of the class: ArrayList is added [apple]
 
 When handleRequest is called, apple is added to the arraylist.
 
-![Image](/lab3/Search.png)
+![Image](lab3/Search.png)
 
 Method called: handleRequest
 
@@ -82,15 +82,15 @@ Values of relevant fields of the class: ArrayList items = [pineapple,apple]
 
 The failure-inducing input (the code of the test):
     
-![Image](/lab3/Array%20Test.png)
+![Image](lab3/Array%20Test.png)
 
 The symptom (the failing test output): When the above test is run, the output of the reversed function is: [0,0,0].
 
-![Image](/lab3/Array%20Faild%20Test.png)
+![Image](lab3/Array%20Faild%20Test.png)
 
 The bug: The program is reassigning the values in the input array based on values from the returned array, that is uninitialized.
 
-![Image](/lab3/Array%20Fixed%20Code.png)
+![Image](lab3/Array%20Fixed%20Code.png)
 
 The connection between the symptom and the bug is the output is printing an uninitialized array not the expected result.
 
@@ -98,14 +98,14 @@ The connection between the symptom and the bug is the output is printing an unin
 
 The failure-inducing input (the code of the test):
   
-![Image](/lab3/List%20Test.png)
+![Image](lab3/List%20Test.png)
 
 The symptom (the failing test output): Items saved in the reverse order.
   
-![Image](/lab3/List%20Failed%20Test.png)
+![Image](lab3/List%20Failed%20Test.png)
 
 The bug: It filters and adds items in reverse order rather than the original list order.
   
-![Image](/lab3/List%20Fixed%20Test.png)
+![Image](lab3/List%20Fixed%20Test.png)
 
 The connection between the symptom and the bug is the original code adds elements to the front, the order of elements in the actual result does not match with the order in the expected result.
