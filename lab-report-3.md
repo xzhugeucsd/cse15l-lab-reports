@@ -86,6 +86,7 @@ The ability to highlight matched strings in color in its output.
 grep ".txt" find-results.txt -n
 ```
 -n: Show line numbers
+
 Clearly tell us how many lines there are.
 
 ![](lab5/grep%20-n2.png)
