@@ -5,7 +5,7 @@
 
 [Lab Report 3](https://xzhugeucsd.github.io/cse15l-lab-reports/lab-report-2)
 
-[Lab Report 4]
+[Lab Report 4](https://xzhugeucsd.github.io/cse15l-lab-reports/lab-report-3)
 
 [Lab Report 5]
 
