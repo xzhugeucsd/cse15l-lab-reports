@@ -48,7 +48,7 @@ class SearchEngine {
     }
 }
 ```
-![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add1.png)
+![Image](/lab3/Add1.png)
 
 Method called: handleRequest
 
@@ -58,7 +58,7 @@ Values of relevant fields of the class: ArrayList is added [pineapple]
 
 When handleRequest is called, pineapple is added to the arraylist.
 
-![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add2.png)
+![Image](/lab3/Add2.png)
 
 Method called: handleRequest
 
@@ -68,7 +68,7 @@ Values of relevant fields of the class: ArrayList is added [apple]
 
 When handleRequest is called, apple is added to the arraylist.
 
-![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Search.png)
+![Image](/lab3/Search.png)
 
 Method called: handleRequest
 
