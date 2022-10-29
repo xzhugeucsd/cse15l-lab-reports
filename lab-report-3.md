@@ -66,7 +66,7 @@ grep ".txt" find-results.txt -v
 ```
 -v: reverse selection, i.e. show the line without the 'search string' content!
 
-Find lines that do not contain the specified content.
+It helps to find lines that do not contain the specified content.
 
 ![](lab5/less%20-v.png)
 
@@ -76,7 +76,7 @@ grep ".txt" find-results.txt --color
 
 --color: highlight the matched content
 
-The ability to highlight matched strings in color in its output.
+It has the ability to highlight matched strings in color in its output.
 
 ![](lab5/grep%20--color2.png)
 
@@ -87,7 +87,7 @@ grep ".txt" find-results.txt -n
 ```
 -n: Show line numbers
 
-Clearly tell us how many lines there are.
+It's useful because it clearly tells us how many lines there are.
 
 ![](lab5/grep%20-n2.png)
 
