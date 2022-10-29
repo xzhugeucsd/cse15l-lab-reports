@@ -48,7 +48,7 @@ class SearchEngine {
     }
 }
 ```
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add1.png)
+![alt text](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add1.png)
 
     Method called: handleRequest
 
@@ -58,7 +58,7 @@ class SearchEngine {
 
     When handleRequest is called, pineapple is added to the arraylist.
 
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add2.png)
+![alt text](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add2.png)
 
     Method called: handleRequest
 
@@ -68,7 +68,7 @@ class SearchEngine {
 
     When handleRequest is called, apple is added to the arraylist.
 
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Search.png)
+![alt text](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Search.png)
 
     Method called: handleRequest
 
