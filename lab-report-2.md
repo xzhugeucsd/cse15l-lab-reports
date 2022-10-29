@@ -2,7 +2,7 @@
 
 *Part 1*
 
-Below is the code of SearchEngine:
+**Below is the code of SearchEngine:**
 ``` 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
@@ -48,38 +48,64 @@ class SearchEngine {
     }
 }
 ```
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add1.png)
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Add2.png)
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Search.png)
+![Image](/lab3/Add1.png)
 
-The three screenshots are added and searched with the handleRequest method, while they use different if statements. The different operations are performed by the query category inside the separate url. The search will return to create a new array list by contain to check the previous array list. So the result of the search will contain only specific content.
+Method called: handleRequest
+
+Values of the relevant arguments:localhost:4000/add?s=pineapple
+
+Values of relevant fields of the class: ArrayList is added [pineapple]
+
+When handleRequest is called, pineapple is added to the arraylist.
+
+![Image](/lab3/Add2.png)
+
+Method called: handleRequest
+
+Values of the relevant arguments:localhost:4000/add?s=apple
+
+Values of relevant fields of the class: ArrayList is added [apple]
+
+When handleRequest is called, apple is added to the arraylist.
+
+![Image](/lab3/Search.png)
+
+Method called: handleRequest
+
+Values of the relevant arguments:localhost:4000/search?s=app
+
+Values of relevant fields of the class: ArrayList items = [pineapple,apple]
 
 *Part 2*
 
 **Array Method**:
 
-    The failure-inducing input (the code of the test):
+The failure-inducing input (the code of the test):
     
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Array%20Test.png)
+![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Array%20Test.png)
 
-    The symptom (the failing test output): When the above test is run, the output of the reversed function is: [0,0,0].
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Array%20Faild%20Test.png)
+The symptom (the failing test output): When the above test is run, the output of the reversed function is: [0,0,0].
 
-    The bug: The program is reassigning the values in the input array based on values from the returned array, that is uninitialized.
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Array%20Fixed%20Code.png)
+![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Array%20Faild%20Test.png)
 
+The bug: The program is reassigning the values in the input array based on values from the returned array, that is uninitialized.
+
+![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/Array%20Fixed%20Code.png)
+
+The connection between the symptom and the bug is the output is printing an uninitialized array not the expected result.
 
 **List Method**:
 
-    The failure-inducing input (the code of the test):
+The failure-inducing input (the code of the test):
   
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/List%20Test.png)
+![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/List%20Test.png)
 
-    The symptom (the failing test output): Items saved in the reverse order.
+The symptom (the failing test output): Items saved in the reverse order.
   
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/List%20Failed%20Test.png)
+![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/List%20Failed%20Test.png)
 
-    The bug: It filters and adds items in reverse order rather than the original list order.
+The bug: It filters and adds items in reverse order rather than the original list order.
   
-![](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/List%20Fixed%20Test.png)
+![Image](https://github.com/xzhugeucsd/cse15l-lab-reports/blob/main/lab3/List%20Fixed%20Test.png)
 
+The connection between the symptom and the bug is the original code adds elements to the front, the order of elements in the actual result does not match with the order in the expected result.
