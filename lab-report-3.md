@@ -1,8 +1,11 @@
 # Grep Command-line Options
 
 # The -l option
+
 grep -l, which seems to work well, because when a match is found, the return contains the name of the matching file.
+
 ## Example1
+
 code:
 
 ``` 
@@ -18,6 +21,7 @@ The output shows which txt files in /911report contain "United 175 was hijacked,
 
 
 ## Example2
+
 code:
 ```
 grep  "dance" 911report/*.txt -l 
@@ -114,6 +118,7 @@ result:
 -v: reverse selection, i.e. show the line without the 'search string' content!
 
 It helps to find lines that do not contain the specified content.
+
 ## Example1
 
 code:
