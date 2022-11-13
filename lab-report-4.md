@@ -11,14 +11,14 @@ vim<space><shift>D<tab><Enter>
 vim Doc SearchServer.java
 ```
 In the skill-demo1 directory, use vim to open the SearchServer.java file or use the initials + tab to quickly find the file.
-![]()
+![Unedit](lab7/Unedit.png)
 
 ```
 :%s/start/base<Enter>
 ```
 The % range means "the whole file". And you can find and replace text using the :substitute ( :s ) command. Next, find the full text of start and replace it with base.
 
-![]()
+![Edit](lab7/Edit.png)
 
 ```
 :wq<Enter>
