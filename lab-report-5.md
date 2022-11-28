@@ -53,13 +53,13 @@ echo "Grade: [$score/3]"
 **Student Submission Examples**
 
 
-![First](lab8/compile error)
+![First](lab8/compile%20error%201:3.png)
 
 
-![Second](lab8/)
+![Second](lab8/list-methods-lab3.png)
 
 
-![Third](lab8/)
+![Third](lab8/2:3.png)
 
 
 **Tracing the code**
