@@ -9,4 +9,4 @@
 
 [Lab Report 5](https://xzhugeucsd.github.io/cse15l-lab-reports/lab-report-4)
 
-[Lab Report 6]
+[Lab Report 6](https://xzhugeucsd.github.io/cse15l-lab-reports/lab-report-5)
